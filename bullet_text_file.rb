@@ -32,4 +32,4 @@ def print_hash(heading_level, s_number, title)
 	puts "\t " * heading_level + "#{s_number.join(".")}.  " + title
 end
 print_hash(@previous[:heading_level], @previous[:s_no], @previous[:title])
-array.each {|input_hash| print_hash(input_hash[:heading_level], serial_number(input_hash), input_hash[:title])}
+array.each {|input_hash| print_hash(input_hash[:heading_level], serial_number(input_hash), input_hash[:title])} 
